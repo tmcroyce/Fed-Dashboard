@@ -1,7 +1,6 @@
 #Load em up
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import config
 import streamlit as st
 
