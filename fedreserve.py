@@ -16,7 +16,7 @@ import plotly.figure_factory as ff
 
 
 # API Key
-fred_api_key = config.fred_api_key
+#fred_api_key = config.fred_api_key
 
 # Define function to get data from fred api
 def get_fred_data(param_list, start_date, end_date):
