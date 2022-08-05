@@ -1,0 +1,5 @@
+config
+requests==2.28.1
+plotly==5.9.0
+datetime
+matplotlib==3.5.1
