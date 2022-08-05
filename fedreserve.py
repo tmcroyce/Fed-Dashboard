@@ -1,18 +1,11 @@
 #Load em up
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
-import sqlite3
 import seaborn as sns
-from sklearn.linear_model import LinearRegression
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 import config
 import streamlit as st
 
 # Following these instructions: https://towardsdev.com/fred-api-get-us-economic-data-using-python-e51ac8e7b1cc
-#!pip install pandas-datareader -q
 import pandas_datareader as pdr # to access fred
 import pandas as pd
 import requests # data from api
